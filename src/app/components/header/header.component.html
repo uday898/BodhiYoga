@@ -1,0 +1,112 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-light" [class.scrolled]="windowScrolled">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo_1.png" alt="" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" [class.active]="headerOptions.home">
+            <a class="nav-link"  [routerLink]="['']">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="true">
+              Certification Courses
+            </a>
+            <div class="dropdown-menu fade-up" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Level 1 Yoga Trainer Certification Course</a>
+              <a class="dropdown-item" href="#">RYT-200hrs International Yoga Teacher Training Course</a>
+              <a class="dropdown-item" href="#">RYT-300hrs Advanced Yoga Teacher Training Course</a>
+              <a class="dropdown-item" href="#">RPYT-Pre-Natal Yoga Teacher Training course</a>
+              <a class="dropdown-item" href="#">800hrs Yoga Teacher Training Course</a>
+              <a class="dropdown-item" href="#">Theraupatic Teacher Training</a>
+              <a class="dropdown-item" href="#">Yoga Nidra Teacher Training</a>
+              <a class="dropdown-item" href="#">Meditation Teacher Training</a>
+              <a class="dropdown-item" href="#">Pranayama Teacher Training</a>
+              <a class="dropdown-item" href="#">Mat-Pilates Teacher Training</a>
+              <a class="dropdown-item" href="#">Bodhi Vinyasa teacher training</a>
+              <a class="dropdown-item" href="#">Aerial Yoga Teacher Training</a>
+              <a class="dropdown-item" href="#">Acro Yoga Teacher Training</a>
+              <a class="dropdown-item" href="#">Weight loss Coach/teacher training</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="true">
+              Diet & Nutrition
+            </a>
+            <div class="dropdown-menu fade-up" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Nutrituion Consultation</a>
+              <a class="dropdown-item" href="#">Diet and Nutritution Certification Course</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="true">
+              Ayurveda
+            </a>
+            <div class="dropdown-menu fade-up" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Ayurveda consultation</a>
+              <a class="dropdown-item" href="#">Panchakarma treatments for various types of ailments</a>
+              <a class="dropdown-item" href="#">Ayurveda awareness programme</a>
+              <a class="dropdown-item" href="#">60-Day Weight Loss Challenge Programme</a>
+             
+            </div>
+          </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+                Yoga Classes
+              </a>
+              <div class="dropdown-menu fade-up" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Online</a>
+                <a class="dropdown-item" href="#">Studio</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+                BODHI
+              </a>
+              <div class="dropdown-menu fade-up" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Our Approach</a>
+                <a class="dropdown-item" href="#">Our Team</a>
+                <a class="dropdown-item" href="#">Our Branches</a>
+                <a class="dropdown-item" href="#">Images Gallery</a>
+                <a class="dropdown-item" href="#">Contact Us</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" data-flip="false"
+                aria-haspopup="true" aria-expanded="true">
+                MORE
+              </a>
+              <div class="dropdown-menu fade-up" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">LOGIN</a>
+                <a class="dropdown-item" href="#">UPCOMING</a>
+              </div>
+            </li>
+        <!--   <li class="nav-item" [class.active]="headerOptions.yoga">
+            <a class="nav-link" [routerLink]="['yoga']">Yoga</a>
+          </li> -->
+         <!--  <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li> -->
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  

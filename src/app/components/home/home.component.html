@@ -1,0 +1,469 @@
+<!-- Top Carosel -->
+<div id="topCarousel" class="top-carousel carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#topCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#topCarousel" data-slide-to="1"></li>
+      <li data-target="#topCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active pointer" data-interval="2000" (click)="playVideo()">
+        <img
+          src="../../../assets/pexels-andrea-piacquadio-3757955.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="carousel-caption">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img
+          src="../../../assets/pexels-david-gomes-2647471.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="carousel-caption">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img
+          src="../../../assets/pexels-burst-373946.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="carousel-caption">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#topCarousel"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#topCarousel"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  <div class="my-5"></div>
+
+  <!-- Our Approach -->
+<!--   <div class="container">
+    <h2 class="text-center mb-4 dfc1">Our Approach</h2>
+    <p class="text-center">
+      Our belief is that Yoga is a way of life and it does not comprise of
+      physical asanas as perceived but also is also inclusive of thoughts, food
+      and one’s interaction with its environment and how it applies to daily life
+      so that you get the true potential of better living as an individual and
+      furthermore as a society.
+    </p>
+    <p class="text-center">
+      Our practical applications of yogic ideals in daily life include the simple
+      philosophies behind the techniques of yoga that contributes to better living
+      that is free of physical illness and a truly transformed you!
+    </p>
+  </div> -->
+  
+  <div class="my-5"></div>
+  
+
+    <div class="container">
+      <h2 class="text-center mb-4 dfc1">Featured Section</h2>
+      <div class="img-container">
+        <div class="lineborder">
+        </div>
+        <div class="imgres" style="background-image: "";"> 
+
+        </div>
+      </div>
+    </div>
+
+
+  <!-- Featured Section -->
+  <div class="container">
+    <h2 class="text-center mb-4 dfc1">Featured Section</h2>
+    <div class="d-flex-cu">
+      <div class="card rounded shadow border-0 mx-auto mb-2 fscard pointer" [routerLink]="['yoga']">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-1-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+      <div class="card mx-auto mb-2 fscard rounded shadow border-0 pointer">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-2-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+      <div class="card mx-auto mb-2 fscard rounded shadow border-0 pointer">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-3-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+    </div>
+  </div>
+  
+  <div class="my-5"></div>
+  
+  <!-- Upcoming Events -->
+  <div class="container">
+    <h2 class="text-center mb-4 dfc1">Upcoming Events</h2>
+    <div class="row row-cols-auto">
+      <div class="col mb-4" *ngFor="let event of upComingEvents">
+        <div class="card h-100 ecard rounded shadow border-0">
+          <img
+            src='../../../assets/upcomingEvents/{{event.imageUrl}}.jpg'
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{event.name}}</h5>
+            <p class="card-text">
+              {{event.description}}
+            </p>
+            <a href="#" class="btn btn-primary">Learn More
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right"
+                viewBox="0 0 20 20">
+                <path fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  
+  <div class="my-5"></div>
+  <!-- Testimonials -->
+  <div class="container ttm">
+    <h2 class="text-center mb-4 dfc1">Testimonials</h2>
+    <div id="ttmCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Carousel indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#ttmCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#ttmCarousel" data-slide-to="1"></li>
+        <li data-target="#ttmCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for carousel items -->
+      <div class="carousel-inner">
+        <div class="item carousel-item active" data-interval="2000">
+          <div class="rounded border-0 tcard">
+            <div class="img-box">
+              <img
+                src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1558758981/male-2634974_640.jpg"
+                alt=""
+              />
+            </div>
+            <p class="tcontent">
+              Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
+              lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis
+              at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac,
+              tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.
+            </p>
+            <p class="overview"><b>Paula Wilsons</b>Seo Analyst</p>
+            <div class="star-rating"></div>
+          </div>
+          
+        </div>
+        <div class="item carousel-item" data-interval="2000">
+          <div class="rounded border-0 tcard">
+            <div class="img-box">
+              <img
+                src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1558758981/male-2634974_640.jpg"
+                alt=""
+              />
+            </div>
+            <p class="tcontent">
+              Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
+              lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis
+              at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac,
+              tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.
+            </p>
+            <p class="overview"><b>Paula Wilsons</b>Seo Analyst</p>
+            <div class="star-rating"></div>
+          </div>
+        </div>
+        <div class="item carousel-item" data-interval="2000">
+          <div class="rounded border-0 tcard">
+            <div class="img-box">
+              <img
+                src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1558758981/male-2634974_640.jpg"
+                alt=""
+              />
+            </div>
+            <p class="tcontent">
+              Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
+              lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis
+              at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac,
+              tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.
+            </p>
+            <p class="overview"><b>Paula Wilsons</b>Seo Analyst</p>
+            <div class="star-rating"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel controls -->
+      <a
+        class="carousel-control left carousel-control-prev"
+        href="#ttmCarousel"
+        data-slide="prev"
+      >
+        <i class="fa fa-angle-left"></i>
+      </a>
+      <a
+        class="carousel-control right carousel-control-next"
+        href="#ttmCarousel"
+        data-slide="next"
+      >
+        <i class="fa fa-angle-right"></i>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Gallery -->
+  <div class="container">
+    <h2 class="text-center mb-4 dfc1">Gallery</h2>
+    <div class="d-flex-cu">
+      <div class="card mx-auto mb-2 gcard rounded shadow border-0">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-1-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+      <div class="card mx-auto mb-2 gcard rounded shadow border-0">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-2-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+      <div class="card mx-auto mb-2 gcard rounded shadow border-0">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-3-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+      <div class="card mx-auto mb-2 gcard rounded shadow border-0">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-1-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+      <div class="card mx-auto mb-2 gcard rounded shadow border-0">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-2-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+      <div class="card mx-auto mb-2 gcard rounded shadow border-0">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-3-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+    </div>
+  </div>
+  
+  <div class="my-5"></div>
+  
+  <!-- TTC -->
+  <div class="container ttc">
+    <h2 class="text-center mb-4 dfc1">Teacher Training Courses</h2>
+    <div id="ttcs" class="carousel slide" data-ride="carousel">
+      <!-- Carousel indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#ttcs" data-slide-to="0" class="active"></li>
+        <li data-target="#ttcs" data-slide-to="1"></li>
+        <li data-target="#ttcs" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for carousel items -->
+      <div class="carousel-inner">
+        <div class="item carousel-item active" data-interval="2000">
+          <div class="card rounded border-0">
+            <div class="ttcflex">
+              <div class="img-box">
+                <img
+                  src="../../../assets/ttc/tyic-ttc-courses-3.jpg"
+                  class="resImg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p class="ttcContent">
+                  Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
+                  lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus
+                  turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel
+                  tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget
+                  rutrum.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 
+            <p class="overview"><b>Paula Wilsons</b>Seo Analyst </p>
+            <div class="star-rating"> </div> -->
+        </div>
+        <div class="item carousel-item" data-interval="2000">
+            <div class="card rounded border-0">
+                <div class="ttcflex">
+                  <div class="img-box">
+                    <img
+                      src="../../../assets/ttc/tyic-ttc-courses-3.jpg"
+                      class="resImg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <p class="ttcContent">
+                      Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
+                      lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus
+                      turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel
+                      tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget
+                      rutrum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          <!--  <p class="overview"><b>Paula Wilson</b>Media Analyst </p>
+            <div class="star-rating"> </div> -->
+        </div>
+        <div class="item carousel-item" data-interval="2000">
+            <div class="card rounded border-0">
+                <div class="ttcflex">
+                  <div class="img-box">
+                    <img
+                      src="../../../assets/ttc/tyic-ttc-courses-3.jpg"
+                      class="resImg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <p class="ttcContent">
+                      Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
+                      lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus
+                      turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel
+                      tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget
+                      rutrum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          <!--  <p class="overview"><b>Antonio Moreno</b>Web Developer</p>
+            <div class="star-rating"> </div> -->
+        </div>
+      </div>
+      <!-- Carousel controls -->
+      <a
+        class="carousel-control left carousel-control-prev"
+        href="#ttcs"
+        data-slide="prev"
+      >
+        <i class="fa fa-angle-left"></i>
+      </a>
+      <a
+        class="carousel-control right carousel-control-next"
+        href="#myCarousel"
+        data-slide="next"
+      >
+        <i class="fa fa-angle-right"></i>
+      </a>
+    </div>
+  </div>
+  
+  
+  
+  <!-- Explore More -->
+  <div class="container">
+    <h2 class="text-center mb-4 dfc1">Explore More</h2>
+    <div class="d-flex-cu">
+      <div
+        class="card mx-auto mb-2 gcard rounded shadow border-0"
+        (click)="openUrl('https://theyogainstitute.org/')"
+      >
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-1-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+      <div class="card mx-auto mb-2 gcard rounded shadow border-0">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-2-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+      <div class="card mx-auto mb-2 gcard rounded shadow border-0">
+        <img
+          src="../../../assets/featuredSection/tyi-featured-section-3-400x400.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+    </div>
+  </div>
+  
+  <div class="my-5"></div>
+  <!-- Mobile App -->
+  <!-- <div class="container appContainer shadow">
+    <div class="row">
+        <div class="col">
+            <div class="tab" role="tabpanel">
+              
+                <ul class="nav nav-tabs my-3" role="tablist">
+                    <li role="presentation" class="active" (click)="selectTab()"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Section 1</a></li>
+                    <li role="presentation" (click)="selectTab()"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Section 2</a></li>
+                    <li role="presentation" (click)="selectTab()"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Section 3</a></li>
+                    <li role="presentation" (click)="selectTab()"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab">Section 4</a></li>
+                </ul>
+                
+                <div class="tab-content tabs">
+                    <div role="tabpanel" class="tab-pane fade show active" id="Section1">
+                        <h3>Section 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Section2">
+                        <h3>Section 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Section3">
+                        <h3>Section 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Section4">
+                        <h3>Section 4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div> -->
+  
+  <div class="my-5"></div>

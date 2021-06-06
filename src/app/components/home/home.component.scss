@@ -1,0 +1,363 @@
+$color1: #ea6637;
+$color2: #214d34;
+$color3: #8c8c8c;
+$coloroxley: #7c9c8c;
+$color4: #000000;
+$color5: #ffffff;
+$color6: #069650;
+$color7: #80f7bb;
+$color8: #f28865;
+$color9: #ffffffbf;
+
+/* .top-carousel {
+  margin-top: 3.2rem;
+} */
+.img-container{
+  position: relative;
+  min-height:200px;
+}
+
+.lineborder{
+    width: 200px;
+    height: 200px;
+    border: 1px 1px 1px 1px solid;
+    border: 2px solid;
+    position: absolute;
+    left: 53px;
+}
+
+
+
+.img-col{
+  position: relative;
+  flex: 1 0 auto;
+}
+
+.img-border{
+  border-color: rgb(235, 115, 48);
+    border-width: 1px 1px 1px 1px;
+    margin: 20px -20px -20px 20px;
+    position: absolute;
+    pointer-events: none;
+    border-radius: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.img-banner{
+  padding-top: 400px;
+    background-color: rgb(255,255,255);
+    position: relative;
+    width: 100%;
+    min-height: 30px;
+}
+
+.fill-color{
+  position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.bg-cover{
+      background-image: url(https://srisrischoolofyoga.org/in/wp-content/uploads/2021/02/200h-asana1.png);
+      background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+}
+
+.bg-overlay{
+      background-color: rgba(0,0,0,0.15);
+          position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: -1px;
+    right: -1px;
+}
+
+.carousel .carousel-indicators {
+  li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $color3;
+  }
+  li.active {
+    width: 10px;
+    height: 10px;
+    background-color: $color1;
+  }
+}
+
+.fscard {
+  width: 20rem;
+}
+
+.fscard:hover , .gcard:hover{
+  transform: scale(1.02);
+  opacity: 0.8;
+}
+
+.ecard {
+  width: 15rem;
+}
+
+.ecard:hover .img-box{
+  opacity: 0.8;
+}
+
+
+.ecard:hover{
+ transform: scale(1.02);
+}
+
+.gcard {
+  width: 20rem;
+}
+
+.tcard {
+  background-color: #f8f9fa !important;
+  padding: 0.7rem 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+
+.ttm {
+  .carousel {
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .carousel .item {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 340px;
+  }
+
+  .carousel .item a {
+    color: #eb7245;
+  }
+
+  .carousel .img-box {
+    width: 145px;
+    height: 145px;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+  }
+
+  .carousel .tcontent {
+    padding: 30px 0 10px;
+  }
+
+  .tcontent {
+    color: $color4;
+    font: Times Roman;
+  }
+
+  .carousel .overview {
+    text-align: center;
+    padding-bottom: 5px;
+    color: $coloroxley;
+  }
+
+  .btn-lg.round {
+    border-radius: 24px;
+  }
+
+  .carousel .overview b {
+    color: #333;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .carousel .star-rating i {
+    font-size: 18px;
+    color: #ffdc12;
+  }
+
+  .carousel .carousel-control {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #999;
+    text-shadow: none;
+    display: none;
+  }
+
+  .carousel-control i {
+    font-size: 20px;
+    margin-right: 2px;
+  }
+
+  /*  .carousel-control.left {
+      left: auto;
+      right: 40px;
+    }
+  
+    .carousel-control.right i {
+      margin-right: -2px;
+    } */
+
+  .carousel .carousel-indicators {
+    bottom: 40px;
+  }
+}
+
+.ttc {
+  .ttcflex {
+    display: flex;
+  }
+
+  .carousel {
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .carousel .item {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 340px;
+  }
+
+  .carousel .item a {
+    color: #eb7245;
+  }
+
+  .carousel .ttcContent {
+    padding: 30px 0 10px;
+  }
+
+  .ttcContent {
+    color: #000000;
+    font: Times Roman;
+  }
+
+  .carousel .overview {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .carousel .overview b {
+    color: #333;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .carousel .star-rating i {
+    font-size: 18px;
+    color: #ffdc12;
+  }
+
+  .carousel .carousel-control {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #999;
+    text-shadow: none;
+    top: 4px;
+    display: none;
+  }
+
+  .carousel-control i {
+    font-size: 20px;
+    margin-right: 2px;
+  }
+
+  .carousel-control.left {
+    left: auto;
+    right: 40px;
+  }
+
+  .carousel-control.right i {
+    margin-right: -2px;
+  }
+
+  .carousel .carousel-indicators {
+    bottom: 40px;
+  }
+}
+
+.appContainer{
+  a:hover,a:focus{
+    outline: none;
+    text-decoration: none;
+}
+.tab .nav-tabs{
+    display: inline-block;
+    background: #fff;
+    border-radius: 50px;
+    border: none;
+    padding: 6px;
+}
+.tab .nav-tabs li{
+    float: none;
+    display: inline-block;
+    position: relative;
+}
+.tab .nav-tabs li a{
+    font-size: 16px;
+    font-weight: 700;
+    background: none;
+    color: #999;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: all 0.5s ease 0s;
+}
+.tab .nav-tabs li a:hover{
+    background: $color8;
+    color: #fff;
+    border: none;
+}
+.tab .nav-tabs li.active a,
+.tab .nav-tabs li.active a:focus,
+.tab .nav-tabs li.active a:hover{
+    border: none;
+    background: $color8;
+    color: #fff;
+}
+.tab .tab-content{
+    font-size: 14px;
+    color: #686868;
+    line-height: 25px;
+    text-align: left;
+    padding: 5px 20px;
+}
+.tab .tab-content h3{
+    font-size: 22px;
+    color: #5b5a5a;
+}
+@media only screen and (max-width: 480px){
+    .tab .nav-tabs{
+        border-radius: 10px;
+    }
+    .tab .nav-tabs li{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}
+}

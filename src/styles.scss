@@ -1,0 +1,138 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+$spacer: 1rem;
+$bgColor: #54575af7;
+$color1: #F3B732;
+$color2: #FFFFFF;
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+  min-height: 100vh;
+  background-color: #54575af7 !important;
+  font-family: 'Poppins', sans-serif !important;
+  color: $color2 !important;
+}
+
+.f1 {
+  font-weight: 200;
+  font-family: 'Poppins', sans-serif;
+}
+
+.df1 {
+  font-size: 24px;
+}
+
+.d-flex-cu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.df2 {
+  font-size: 80px;
+}
+
+.dfc1 {
+  color: $color1;
+}
+
+.dfc2 {
+  color: $color2;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  background-color: $color1 !important;
+  border-radius: 60% !important;
+  color: $color2 !important;
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    margin-top: 0;
+  }
+  .navbar .dropdown-menu.fade-down {
+    top: 80%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+  }
+  .navbar .dropdown-menu.fade-up {
+    top: 180%;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    transition: 0.3s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: rotateX(0deg);
+  }
+}
+
+@media (max-width: 991.98px) {
+ /*  .top-carousel {
+    margin-top: 3.2rem;
+  } */
+  .ecard{
+    margin: auto;
+  }
+  .ttcflex {
+    flex-wrap: wrap;
+  }
+  .carousel .img-box {
+    margin: auto;
+  }
+  .resImg {
+    max-width: 100%;
+    height: auto;
+  }
+  .ftContent {
+    flex-wrap: wrap;
+  }
+  .ftcol {
+    margin-bottom: 2rem;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: 0 none;
+}
+
+.btn-primary {
+  background: #f76f42 !important;
+  color: #ffffff;
+  border-radius: 50px !important;
+  border: none !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background: $color1 !important;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background: $color1 !important;
+  box-shadow: none;
+}

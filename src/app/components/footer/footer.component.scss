@@ -1,0 +1,46 @@
+$color1: #ea6637;
+$color2: #214d34;
+$color3: #8c8c8c;
+$coloroxley: #7c9c8c;
+$color4: #000000;
+$color5: #ffffff;
+$color6: #069650;
+$color7: #80f7bb;
+$color8: #f28865;
+$color9: #ffffffbf;
+
+.ft-con{
+    background-color: $color6;
+    color: $color7;
+  }
+  
+  .ft-icon{
+    color:$color7;
+    margin: 3rem 8px 0px 5px;
+  }
+  
+  .divider{
+    background-color:$color7;
+  }
+  
+  .ft-icon:hover{
+    color: $color5;
+    cursor: pointer;
+  }
+  
+  .ft-link:hover{
+    color: $color5;
+    cursor: pointer;
+  }
+  
+  .ftContent{
+    display: flex;
+  }
+  
+  .ftcol{
+    width: 250px;
+  }
+  
+  .cpcontent{
+    padding-bottom: 1rem;
+  }
