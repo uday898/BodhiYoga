@@ -361,3 +361,113 @@ $color9: #ffffffbf;
     }
 }
 }
+
+.feq_yogabox{background-color: #645651;text-align: center;margin-left: 15px;position: relative;background-position: center bottom;background-image: url("https://srisrischoolofyoga.org/in/wp-content/uploads/2021/02/200h-asana1.png");}
+.feq_yogabox:hover{background-color: #fff;}
+.feq_yogabox_text{padding: 30px 0 50px;}
+.feq_yogabrdr{
+
+  position: absolute;
+    pointer-events: none;
+    border-radius: 0;
+    z-index: -6;
+    margin: 0;
+    top: 15px;
+    /* padding: 125px; */
+    bottom: -15px;
+    right: -15px;
+    left: 15px;
+    border: 1px solid #EB7332;
+}
+.feq_yogabox_text{    padding-bottom: 194px;}
+ 
+.add-padd{padding-top: 400px; }
+.feq_yogabox_text > h4{    font-weight: bold;font-size: 19px;}
+.feq_yogabox_text > p{    color: #ffffff73; font-weight: bold;}
+.feq_yogabox_text > a{}
+.cnt-link{color: #fff;text-transform:uppercase ;}
+.cnt-link:hover{text-decoration: none;}
+.move-a > .right-ar {transform: rotate(90deg);position: absolute;top: 3px;}
+.move-a{position: relative;}
+.right-ar {transform: rotate(90deg);position: absolute;}
+// .move-a:hover > .right-ar{ transform: translateX(4px);  transition: transform 0.3s ease-out;}
+
+.cnt-link:hover > .move-a{transform: translateX(4px);  transition: transform 0.3s ease-out;}
+.feq-box-sec{margin-bottom:70px;}
+.hm_bg_1 {
+  text-align: center;
+  background-image: url(https://bodhiyogainstitute.com/images/bg/bg13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.hm_bg_1:before {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: '';
+  background-color:rgb(0 0 0 / 81%);
+}
+.cnrows {
+  padding: 100px 0;
+}
+.com_info img {
+  max-width: 120px;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient( 120deg  #e6733d 0%, #ffd10f 100%);
+  background: -webkit-linear-gradient( 120deg, #e6733d 0%, #ffd10f 100%);
+  background: -moz-linear-gradient(120deg, #e6733d 0%, #ffd10f 100%);
+  border-radius: 50%;
+}
+.com_info h3 {
+  color: #fff;
+  margin: 0;
+  font-weight: bolder;
+  font-size: 4rem;
+}
+.com_info p {
+  font-weight: bolder;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.com_info h3 {
+  color: #fff;
+  margin: 0;
+  font-size: 4rem;
+}
+
+
+// .subscription{position:relative;background-image:url("../../../assets/images-external/subscription.jpg");background-position: center center;background-repeat: no-repeat;background-size:cover ;}
+.subscription{position:relative;background-image:url("https://images.unsplash.com/photo-1491172700640-4f1a131a3670?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");background-position: center center;background-repeat: no-repeat;background-size:cover ;}
+.subscription::before{position: absolute;content: "";background-color: #00000073;left:0;right: 0;top: 0;bottom: 0;}
+.sub-wrap{padding:56px 52px;}
+.cust-form{
+  border-radius: 42px;
+  background-color: #f3b73242;
+  border: 1px solid #f3b732;
+  color: #f3b732;
+  font-size: 12px;
+  padding: 18px 9px;
+}
+.form-control:focus{box-shadow: 0px 0px 7px 0px rgba(231,166,26,1);}
+.form-group{position: relative;}
+.inputwrap{position: relative;}
+.submit-btn{position: absolute;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(231,166,26,1);
+-moz-box-shadow: 0px 0px 7px 0px rgba(231,166,26,1);
+box-shadow: 0px 0px 7px 0px rgba(231,166,26,1);
+  background-color: #373435;
+  color: #fff;
+  border-radius: 42px;
+  right: 2px;
+  top: 2px;
+  font-size: 12px;
+  padding: 7px 21px;
+
+}
