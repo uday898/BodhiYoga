@@ -1,6 +1,7 @@
 import { Component, AfterViewInit, Renderer2 , OnInit} from '@angular/core';
 import { Events } from '../../../assets/data';
 import { AppService } from '../../app.service';
+declare var $: any;
 
 @Component({
   selector: 'app-home',
@@ -14,6 +15,23 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.upComingEvents = Object.assign([], Events);
     //console.log(this.upComingEvents);
+
+    $('.count').each(function () {
+      $(this)
+        .prop('Counter', 0)
+        .animate(
+          {
+            Counter: $(this).text(),
+          },
+          {
+            duration: 4000,
+            easing: 'swing',
+            step: function (now) {
+              $(this).text(Math.ceil(now));
+            },
+          }
+        );
+    });
   }
 
   openUrl(url, width?, height?) {
