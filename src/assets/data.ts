@@ -39,7 +39,7 @@ export const Events = [
 export const yogaClasses = [
   {
     id: '100hr-Yoga-Teacher-Training',
-    name: '100 hr Yoga Teacher Training',
+    name: 'RYT-200hrs International Yoga Teacher Training Course',
     description1: '100hr Yoga Alliance',
     description2: '12 – 23 April 2021',
     imageUrl: 'tyi-featured-section-1-400x400',
@@ -47,7 +47,7 @@ export const yogaClasses = [
   },
   {
     id: '200hr-Yoga-Teacher-Training',
-    name: '200 hr Yoga Teacher Training',
+    name: 'RYT-300hrs Advanced Yoga Teacher Training Course',
     description1: 'Yoga Alliance',
     description2: '12 – 23 April 2021',
     imageUrl: 'tyi-featured-section-3-400x400',
@@ -55,7 +55,7 @@ export const yogaClasses = [
   },
   {
     id: '300hr-Yoga-Teacher-Training',
-    name: '300 hr Yoga Teacher Training',
+    name: 'RPYT-Pre-Natal Yoga Teacher Training course',
     description1: 'Yoga Alliance',
     description2: '12 – 23 April 2021',
     imageUrl: 'tyi-featured-section-1-400x400',
@@ -63,7 +63,7 @@ export const yogaClasses = [
   },
   {
     id: 'Advanced-Yoga-Teacher-Training',
-    name: 'Advanced Yoga Teacher Training',
+    name: '800hrs Yoga Teacher Training Course',
     description1: ' Yoga Alliance',
     description2: '12 – 23 April 2021',
     imageUrl: 'tyi-featured-section-2-400x400',
@@ -71,7 +71,71 @@ export const yogaClasses = [
   },
   {
     id: 'Pre-Natal-Yoga-Teacher-Training',
-    name: 'Online Pre-Natal Yoga Teacher Training',
+    name: 'Theraupatic Teacher Training',
+    description1: ' Yoga Alliance',
+    description2: '12 – 23 April 2021',
+    imageUrl: 'tyi-featured-section-3-400x400',
+    redirectUrl: '',
+  },
+  {
+    id: 'Pre-Natal-Yoga-Teacher-Training',
+    name: 'Yoga Nidra Teacher Training',
+    description1: ' Yoga Alliance',
+    description2: '12 – 23 April 2021',
+    imageUrl: 'tyi-featured-section-3-400x400',
+    redirectUrl: '',
+  },
+  {
+    id: 'Pre-Natal-Yoga-Teacher-Training',
+    name: 'Meditation Teacher Training',
+    description1: ' Yoga Alliance',
+    description2: '12 – 23 April 2021',
+    imageUrl: 'tyi-featured-section-3-400x400',
+    redirectUrl: '',
+  },
+  {
+    id: 'Pre-Natal-Yoga-Teacher-Training',
+    name: 'Pranayama Teacher Training',
+    description1: ' Yoga Alliance',
+    description2: '12 – 23 April 2021',
+    imageUrl: 'tyi-featured-section-3-400x400',
+    redirectUrl: '',
+  },
+  {
+    id: 'Pre-Natal-Yoga-Teacher-Training',
+    name: 'Mat-Pilates Teacher Training',
+    description1: ' Yoga Alliance',
+    description2: '12 – 23 April 2021',
+    imageUrl: 'tyi-featured-section-3-400x400',
+    redirectUrl: '',
+  },
+  {
+    id: 'Pre-Natal-Yoga-Teacher-Training',
+    name: 'Bodhi Vinyasa teacher training',
+    description1: ' Yoga Alliance',
+    description2: '12 – 23 April 2021',
+    imageUrl: 'tyi-featured-section-3-400x400',
+    redirectUrl: '',
+  },
+  {
+    id: 'Pre-Natal-Yoga-Teacher-Training',
+    name: 'Aerial Yoga Teacher Training',
+    description1: ' Yoga Alliance',
+    description2: '12 – 23 April 2021',
+    imageUrl: 'tyi-featured-section-3-400x400',
+    redirectUrl: '',
+  },
+   {
+    id: 'Pre-Natal-Yoga-Teacher-Training',
+    name: 'Acro Yoga Teacher Training',
+    description1: ' Yoga Alliance',
+    description2: '12 – 23 April 2021',
+    imageUrl: 'tyi-featured-section-3-400x400',
+    redirectUrl: '',
+  },
+   {
+    id: 'Pre-Natal-Yoga-Teacher-Training',
+    name: 'Weight loss Coach/teacher training',
     description1: ' Yoga Alliance',
     description2: '12 – 23 April 2021',
     imageUrl: 'tyi-featured-section-3-400x400',
@@ -80,7 +144,7 @@ export const yogaClasses = [
 ];
  
 export const yttcDetails = {
-  '100hr-Yoga-Teacher-Training': {
+  'RYT-200hrs International Yoga Teacher Training Course': {
     name: '100 hr Yoga Teacher Training',
     description1: '100hr Yoga Alliance',
     description2: '12 – 23 April 2021',

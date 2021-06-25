@@ -1,7 +1,7 @@
 <div id="topCarousel1" class="top-carousel carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active" data-interval="2000">
-            <img src="../../../assets/pexels-andrea-piacquadio-3757955.jpg" class="d-block w-100" alt="..." />
+            <img src="../../../assets/carousel1.jpeg" class="d-block w-100" alt="..." />
             <div class="carousel-caption">
                 <h5>First slide label</h5>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -11,29 +11,32 @@
 </div>
 
 <div class="my-5"></div>
+<div class="container my-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="text-center mb-4 dfc1">Courses</h2>
+        </div>
+    </div>
 
-
-<div class="container">
-    <h2 class="text-center mb-4">Classes</h2>
-    <div class="row row-cols-auto">
-        <div class="card-wrapper col-lg-4 col-md-6 col-xs-12" *ngFor="let class of classes">
-            <div class="card">
-                <div class="card-img-wrapper">
-                    <img src='../../../assets/featuredSection/{{class.imageUrl}}.jpg' class="card-img-top" alt="..." />
+    <div class="row feq-box-sec">
+        <div class="col-sm-4 yogaBox" *ngFor="let class of classes">
+            <div class="feq_yogabox">
+                <div class="feq_yogabox_text">
+                    <h4 class="mark-spot">{{class.name}}</h4>
+                    <p>Walk The Path of Yoga</p>
+                    <a href="" class="cnt-link"> learn More
+                        <span class="move-a">
+                            <svg _ngcontent-serverApp-c104="" xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                fill="currentColor" viewBox="-1 2 17 17" class="bi bi-chevron-up right-ar">
+                                <path _ngcontent-serverApp-c104="" fill-rule="evenodd"
+                                    d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title text-center">{{class.name}}
-                        
-                    </h5>
-                    <p>{{class.description1}}</p>
-                    <div class="card-content">
-                        <p class="card-text">{{class.description2}}</p>
-                        <a class="btn btn-primary" (click)="openDetails(class)">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right"
-                            viewBox="0 0 20 20">
-                            <path fill-rule="evenodd"
-                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                        </svg></a>
-                    </div>
+                <div class="feq_yogabrdr">
+                    <div class="add-padd"></div>
                 </div>
             </div>
         </div>

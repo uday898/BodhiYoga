@@ -10,10 +10,12 @@ declare var $: any;
 })
 export class HomeComponent implements OnInit {
   upComingEvents: any;
+  image1: any;
   constructor(private renderer: Renderer2, private appService: AppService) {}
 
   ngOnInit(): void {
     this.upComingEvents = Object.assign([], Events);
+    this.image1 = '../../../assets/200h-asana1.png';
     //console.log(this.upComingEvents);
 
 

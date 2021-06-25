@@ -12,75 +12,73 @@ $color9: #ffffffbf;
 /* .top-carousel {
   margin-top: 3.2rem;
 } */
-.img-container{
+.img-container {
   position: relative;
-  min-height:200px;
+  min-height: 200px;
 }
 
-.lineborder{
-    width: 200px;
-    height: 200px;
-    border: 1px 1px 1px 1px solid;
-    border: 2px solid;
-    position: absolute;
-    left: 53px;
+.lineborder {
+  width: 200px;
+  height: 200px;
+  border: 1px 1px 1px 1px solid;
+  border: 2px solid;
+  position: absolute;
+  left: 53px;
 }
 
-
-
-.img-col{
+.img-col {
   position: relative;
   flex: 1 0 auto;
 }
 
-.img-border{
+.img-border {
   border-color: rgb(235, 115, 48);
-    border-width: 1px 1px 1px 1px;
-    margin: 20px -20px -20px 20px;
-    position: absolute;
-    pointer-events: none;
-    border-radius: 0;
-    margin: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
-
-.img-banner{
-  padding-top: 400px;
-    background-color: rgb(255,255,255);
-    position: relative;
-    width: 100%;
-    min-height: 30px;
-}
-
-.fill-color{
+  border-width: 1px 1px 1px 1px;
+  margin: 20px -20px -20px 20px;
   position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    right: 0;
-    bottom: 0;
-    padding: 0 !important;
-    margin: 0 !important;
+  pointer-events: none;
+  border-radius: 0;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-.bg-cover{
-      background-image: url(https://srisrischoolofyoga.org/in/wp-content/uploads/2021/02/200h-asana1.png);
-      background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-position: 50% 50%;
+.img-banner {
+  padding-top: 400px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  width: 100%;
+  min-height: 30px;
 }
 
-.bg-overlay{
-      background-color: rgba(0,0,0,0.15);
-          position: absolute;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    left: -1px;
-    right: -1px;
+.fill-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.bg-cover {
+  //background-image: url(https://srisrischoolofyoga.org/in/wp-content/uploads/2021/02/200h-asana1.png);
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50%;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: -1px;
+  right: -1px;
 }
 
 .carousel .carousel-indicators {
@@ -101,7 +99,8 @@ $color9: #ffffffbf;
   width: 20rem;
 }
 
-.fscard:hover , .gcard:hover{
+.fscard:hover,
+.gcard:hover {
   transform: scale(1.02);
   opacity: 0.8;
 }
@@ -110,13 +109,12 @@ $color9: #ffffffbf;
   width: 15rem;
 }
 
-.ecard:hover .img-box{
+.ecard:hover .img-box {
   opacity: 0.8;
 }
 
-
-.ecard:hover{
- transform: scale(1.02);
+.ecard:hover {
+  transform: scale(1.02);
 }
 
 .gcard {
@@ -300,24 +298,25 @@ $color9: #ffffffbf;
   }
 }
 
-.appContainer{
-  a:hover,a:focus{
+.appContainer {
+  a:hover,
+  a:focus {
     outline: none;
     text-decoration: none;
-}
-.tab .nav-tabs{
+  }
+  .tab .nav-tabs {
     display: inline-block;
     background: #fff;
     border-radius: 50px;
     border: none;
     padding: 6px;
-}
-.tab .nav-tabs li{
+  }
+  .tab .nav-tabs li {
     float: none;
     display: inline-block;
     position: relative;
-}
-.tab .nav-tabs li a{
+  }
+  .tab .nav-tabs li a {
     font-size: 16px;
     font-weight: 700;
     background: none;
@@ -326,74 +325,114 @@ $color9: #ffffffbf;
     padding: 10px 15px;
     border-radius: 50px;
     transition: all 0.5s ease 0s;
-}
-.tab .nav-tabs li a:hover{
+  }
+  .tab .nav-tabs li a:hover {
     background: $color8;
     color: #fff;
     border: none;
-}
-.tab .nav-tabs li.active a,
-.tab .nav-tabs li.active a:focus,
-.tab .nav-tabs li.active a:hover{
+  }
+  .tab .nav-tabs li.active a,
+  .tab .nav-tabs li.active a:focus,
+  .tab .nav-tabs li.active a:hover {
     border: none;
     background: $color8;
     color: #fff;
-}
-.tab .tab-content{
+  }
+  .tab .tab-content {
     font-size: 14px;
     color: #686868;
     line-height: 25px;
     text-align: left;
     padding: 5px 20px;
-}
-.tab .tab-content h3{
+  }
+  .tab .tab-content h3 {
     font-size: 22px;
     color: #5b5a5a;
-}
-@media only screen and (max-width: 480px){
-    .tab .nav-tabs{
-        border-radius: 10px;
+  }
+  @media only screen and (max-width: 480px) {
+    .tab .nav-tabs {
+      border-radius: 10px;
     }
-    .tab .nav-tabs li{
-        width: 100%;
-        text-align: center;
-        margin-bottom: 5px;
+    .tab .nav-tabs li {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 5px;
     }
-}
+  }
 }
 
-.feq_yogabox{background-color: #645651;text-align: center;margin-left: 15px;position: relative;background-position: center bottom;background-image: url("https://srisrischoolofyoga.org/in/wp-content/uploads/2021/02/200h-asana1.png");}
-.feq_yogabox:hover{background-color: #fff;}
-.feq_yogabox_text{padding: 30px 0 50px;}
-.feq_yogabrdr{
-
+.feq_yogabox {
+  background-color: #645651;
+  text-align: center;
+  margin-left: 15px;
+  position: relative;
+  background-position: center bottom;
+  //background-image: url("https://srisrischoolofyoga.org/in/wp-content/uploads/2021/02/200h-asana1.png");
+}
+.feq_yogabox:hover {
+  background-color: #fff;
+}
+.feq_yogabox_text {
+  padding: 30px 0 50px;
+}
+.feq_yogabrdr {
   position: absolute;
-    pointer-events: none;
-    border-radius: 0;
-    z-index: -6;
-    margin: 0;
-    top: 15px;
-    /* padding: 125px; */
-    bottom: -15px;
-    right: -15px;
-    left: 15px;
-    border: 1px solid #EB7332;
+  pointer-events: none;
+  border-radius: 0;
+  z-index: -6;
+  margin: 0;
+  top: 15px;
+  /* padding: 125px; */
+  bottom: -15px;
+  right: -15px;
+  left: 15px;
+  border: 1px solid #eb7332;
 }
-.feq_yogabox_text{    padding-bottom: 194px;}
- 
-.add-padd{padding-top: 400px; }
-.feq_yogabox_text > h4{    font-weight: bold;font-size: 19px;}
-.feq_yogabox_text > p{    color: #ffffff73; font-weight: bold;}
-.feq_yogabox_text > a{}
-.cnt-link{color: #fff;text-transform:uppercase ;}
-.cnt-link:hover{text-decoration: none;}
-.move-a > .right-ar {transform: rotate(90deg);position: absolute;top: 3px;}
-.move-a{position: relative;}
-.right-ar {transform: rotate(90deg);position: absolute;}
+.feq_yogabox_text {
+  padding-bottom: 194px;
+}
+
+.add-padd {
+  padding-top: 400px;
+}
+.feq_yogabox_text > h4 {
+  font-weight: bold;
+  font-size: 19px;
+}
+.feq_yogabox_text > p {
+  color: #ffffff73;
+  font-weight: bold;
+}
+.feq_yogabox_text > a {
+}
+.cnt-link {
+  color: #fff;
+  text-transform: uppercase;
+}
+.cnt-link:hover {
+  text-decoration: none;
+}
+.move-a > .right-ar {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 3px;
+}
+.move-a {
+  position: relative;
+}
+.right-ar {
+  transform: rotate(90deg);
+  position: absolute;
+}
 // .move-a:hover > .right-ar{ transform: translateX(4px);  transition: transform 0.3s ease-out;}
 
-.cnt-link:hover > .move-a{transform: translateX(4px);  transition: transform 0.3s ease-out;}
-.feq-box-sec{margin-bottom:70px;}
+.cnt-link:hover > .move-a {
+  transform: translateX(4px);
+  transition: transform 0.3s ease-out;
+}
+.feq-box-sec {
+  margin-bottom: 70px;
+}
 .hm_bg_1 {
   text-align: center;
   background-image: url(https://bodhiyogainstitute.com/images/bg/bg13.jpg);
@@ -409,8 +448,8 @@ $color9: #ffffffbf;
   right: 0;
   top: 0;
   bottom: 0;
-  content: '';
-  background-color:rgb(0 0 0 / 81%);
+  content: "";
+  background-color: rgb(0 0 0 / 81%);
 }
 .cnrows {
   padding: 100px 0;
@@ -419,8 +458,8 @@ $color9: #ffffffbf;
   max-width: 120px;
   margin: 0;
   padding: 20px;
-  background: linear-gradient( 120deg  #e6733d 0%, #ffd10f 100%);
-  background: -webkit-linear-gradient( 120deg, #e6733d 0%, #ffd10f 100%);
+  background: linear-gradient(120deg #e6733d 0%, #ffd10f 100%);
+  background: -webkit-linear-gradient(120deg, #e6733d 0%, #ffd10f 100%);
   background: -moz-linear-gradient(120deg, #e6733d 0%, #ffd10f 100%);
   border-radius: 50%;
 }
@@ -442,12 +481,27 @@ $color9: #ffffffbf;
   font-size: 4rem;
 }
 
-
 // .subscription{position:relative;background-image:url("../../../assets/images-external/subscription.jpg");background-position: center center;background-repeat: no-repeat;background-size:cover ;}
-.subscription{position:relative;background-image:url("https://images.unsplash.com/photo-1491172700640-4f1a131a3670?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");background-position: center center;background-repeat: no-repeat;background-size:cover ;}
-.subscription::before{position: absolute;content: "";background-color: #00000073;left:0;right: 0;top: 0;bottom: 0;}
-.sub-wrap{padding:56px 52px;}
-.cust-form{
+.subscription {
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1491172700640-4f1a131a3670?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subscription::before {
+  position: absolute;
+  content: "";
+  background-color: #00000073;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.sub-wrap {
+  padding: 56px 52px;
+}
+.cust-form {
   border-radius: 42px;
   background-color: #f3b73242;
   border: 1px solid #f3b732;
@@ -455,13 +509,20 @@ $color9: #ffffffbf;
   font-size: 12px;
   padding: 18px 9px;
 }
-.form-control:focus{box-shadow: 0px 0px 7px 0px rgba(231,166,26,1);}
-.form-group{position: relative;}
-.inputwrap{position: relative;}
-.submit-btn{position: absolute;
-  -webkit-box-shadow: 0px 0px 7px 0px rgba(231,166,26,1);
--moz-box-shadow: 0px 0px 7px 0px rgba(231,166,26,1);
-box-shadow: 0px 0px 7px 0px rgba(231,166,26,1);
+.form-control:focus {
+  box-shadow: 0px 0px 7px 0px rgba(231, 166, 26, 1);
+}
+.form-group {
+  position: relative;
+}
+.inputwrap {
+  position: relative;
+}
+.submit-btn {
+  position: absolute;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(231, 166, 26, 1);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(231, 166, 26, 1);
+  box-shadow: 0px 0px 7px 0px rgba(231, 166, 26, 1);
   background-color: #373435;
   color: #fff;
   border-radius: 42px;

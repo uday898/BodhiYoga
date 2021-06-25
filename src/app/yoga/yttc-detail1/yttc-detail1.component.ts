@@ -8,12 +8,17 @@ import { yttcDetails } from '../../../assets/data';
   styleUrls: ['./yttc-detail1.component.scss'],
 })
 export class YttcDetail1Component implements OnInit {
-  course: string;
-  selectedCourse:any;
-  constructor(private route: ActivatedRoute) {}
+  course: any;
+  selectedCourse: any;
+  constructor(private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit(): void {
     this.course = this.route.snapshot.paramMap.get('type');
+    this.course.toString().replaceAll('%', ' ');
+    if (!yttcDetails[this.course]) {
+       this.router.navigate(['/']);
+    }
     this.selectedCourse = Object.assign([], yttcDetails[this.course]);
+   
   }
 }

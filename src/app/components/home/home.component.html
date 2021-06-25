@@ -6,8 +6,8 @@
     <li data-target="#topCarousel" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active pointer" data-interval="2000"  style="position: relative;">
-      <img src="../../../assets/pexels-andrea-piacquadio-3757955.jpg" class="d-block w-100" alt="..." />
+    <div class="carousel-item active pointer" data-interval="2000" (click)="playVideo()">
+      <img src="../../../assets/carousel1.jpeg" class="d-block w-100" alt="..." />
       <div class="carousel-caption">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -15,8 +15,8 @@
       </div>
       <div class="play-button"><img src="../../../assets/play.png" alt="" class="img-fluid" (click)="playVideo()"></div>
     </div>
-    <div class="carousel-item" data-interval="2000"  >
-      <img src="../../../assets/pexels-david-gomes-2647471.jpg" class="d-block w-100" alt="..." />
+    <div class="carousel-item" data-interval="2000">
+      <img src="../../../assets/carousel2.jpeg" class="d-block w-100" alt="..." />
       <div class="carousel-caption">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -24,8 +24,8 @@
       </div>
       
     </div>
-    <div class="carousel-item" data-interval="2000" >
-      <img src="../../../assets/pexels-burst-373946.jpg" class="d-block w-100" alt="..." />
+    <div class="carousel-item" data-interval="2000">
+      <img src="../../../assets/carousel3.jpeg" class="d-block w-100" alt="..." />
       <div class="carousel-caption">
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -54,12 +54,12 @@
 
   <div class="row feq-box-sec">
     <div class="col-sm-4">
-      <div class="feq_yogabox">
+      <div class="feq_yogabox" [style.backgroundImage]="'url('+ '../../../assets/200h-asana1.png ' +')'">
         <div class="feq_yogabox_text">
           <h4 class="mark-spot">200 Hrs. Yoga Teacher <br>
             Training </h4>
           <p>Walk The Path of Yoga</p>
-          <a href="" class="cnt-link"> learn More
+          <a href="" class="cnt-link" [routerLink]="['yoga']"> learn More
             <span class="move-a">
               <svg _ngcontent-serverApp-c104="" xmlns="http://www.w3.org/2000/svg" width="15" height="15"
                 fill="currentColor" viewBox="-1 2 17 17" class="bi bi-chevron-up right-ar">
@@ -76,12 +76,12 @@
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="feq_yogabox">
+      <div class="feq_yogabox" [style.backgroundImage]="'url('+ '../../../assets/200h-asana1.png ' +')'">
         <div class="feq_yogabox_text">
           <h4 class="mark-spot">200 Hrs. Yoga Teacher <br>
             Training </h4>
           <p>Walk The Path of Yoga</p>
-          <a href="" class="cnt-link"> learn More
+          <a href="" class="cnt-link" [routerLink]="['coursepage']"> learn More
             <span class="move-a">
               <svg _ngcontent-serverApp-c104="" xmlns="http://www.w3.org/2000/svg" width="15" height="15"
                 fill="currentColor" viewBox="-1 2 17 17" class="bi bi-chevron-up right-ar">
@@ -98,7 +98,7 @@
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="feq_yogabox">
+      <div class="feq_yogabox" [style.backgroundImage]="'url('+ '../../../assets/200h-asana1.png ' +')'">
         <div class="feq_yogabox_text">
           <h4 class="mark-spot">200 Hrs. Yoga Teacher <br>
             Training </h4>
@@ -171,7 +171,7 @@
     </div>
   <div class="row feq-box-sec">
     <div class="col-sm-4">
-      <div class="feq_yogabox">
+      <div class="feq_yogabox" [style.backgroundImage]="'url('+ '../../../assets/200h-asana1.png ' +')'">
         <div class="feq_yogabox_text">
           <h4 class="mark-spot">Diet<br>
              </h4>
@@ -193,7 +193,7 @@
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="feq_yogabox">
+      <div class="feq_yogabox" [style.backgroundImage]="'url('+ '../../../assets/200h-asana1.png ' +')'">
         <div class="feq_yogabox_text">
           <h4 class="mark-spot">Nutrition <br>
              </h4>
@@ -215,7 +215,7 @@
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="feq_yogabox">
+      <div class="feq_yogabox" [style.backgroundImage]="'url('+ '../../../assets/200h-asana1.png ' +')'">
         <div class="feq_yogabox_text">
           <h4 class="mark-spot">Ayurveda <br>
              </h4>
