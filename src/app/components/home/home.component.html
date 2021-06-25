@@ -6,26 +6,32 @@
     <li data-target="#topCarousel" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active pointer" data-interval="2000" (click)="playVideo()">
+    <div class="carousel-item active pointer" data-interval="2000"  style="position: relative;">
       <img src="../../../assets/pexels-andrea-piacquadio-3757955.jpg" class="d-block w-100" alt="..." />
       <div class="carousel-caption">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        
       </div>
+      <div class="play-button"><img src="../../../assets/play.png" alt="" class="img-fluid" (click)="playVideo()"></div>
     </div>
-    <div class="carousel-item" data-interval="2000">
+    <div class="carousel-item" data-interval="2000"  >
       <img src="../../../assets/pexels-david-gomes-2647471.jpg" class="d-block w-100" alt="..." />
       <div class="carousel-caption">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       
       </div>
+      
     </div>
-    <div class="carousel-item" data-interval="2000">
+    <div class="carousel-item" data-interval="2000" >
       <img src="../../../assets/pexels-burst-373946.jpg" class="d-block w-100" alt="..." />
       <div class="carousel-caption">
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        
       </div>
+     
     </div>
   </div>
   <a class="carousel-control-prev" href="#topCarousel" role="button" data-slide="prev">

@@ -16,6 +16,24 @@ export class HomeComponent implements OnInit {
     this.upComingEvents = Object.assign([], Events);
     //console.log(this.upComingEvents);
 
+
+    $('.owl-carousel').owlCarousel({
+      rtl:true,
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
+  })
     $('.count').each(function () {
       $(this)
         .prop('Counter', 0)

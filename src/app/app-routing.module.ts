@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes ,Router } from '@angular/router';
+import { CoursepageComponent } from './components/coursepage/coursepage.component';
 import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
@@ -8,6 +9,8 @@ const routes: Routes = [
     path: 'yoga',
     loadChildren: () => import('./yoga/yoga.module').then((m) => m.YogaModule),
   },
+  {
+    path:'coursepage', component: CoursepageComponent}
 ];
 
 @NgModule({

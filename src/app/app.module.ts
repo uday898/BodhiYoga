@@ -10,6 +10,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PlayerComponent } from './player/player.component';
+import { CoursepageComponent } from './components/coursepage/coursepage.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { PlayerComponent } from './player/player.component';
     FooterComponent,
     routingComponents,
     PlayerComponent,
+    CoursepageComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
